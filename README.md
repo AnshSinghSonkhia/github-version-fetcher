@@ -40,7 +40,7 @@ const GITHUB_TOKEN = 'your_personal_access_token';
 
 (async () => {
     try {
-        const versions = await getVersions('nodejs/node', GITHUB_TOKEN);
+        const versions = await getVersions('github-username/repo-name', GITHUB_TOKEN);
         console.log('Versions:', versions);
     } catch (error) {
         console.error('Error fetching versions:', error);
@@ -49,6 +49,22 @@ const GITHUB_TOKEN = 'your_personal_access_token';
 
 ```
 
+## Example Usage
+
+```js
+// Replace with your GitHub Personal Access Token
+const GITHUB_TOKEN = 'your_personal_access_token';
+
+(async () => {
+    try {
+        const versions = await getVersions('facebook/react', GITHUB_TOKEN);
+        console.log('Versions:', versions);
+    } catch (error) {
+        console.error('Error fetching versions:', error);
+    }
+})();
+
+```
 
 # GitHub Authentication
 GitHub limits API requests for unauthenticated users. To prevent failures, use a GitHub Personal Access Token (PAT).

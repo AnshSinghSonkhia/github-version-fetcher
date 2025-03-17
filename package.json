@@ -1,0 +1,46 @@
+{
+  "name": "github-version-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch all semantically versioned tags of a GitHub repository using your own GitHub API token.",
+  "main": "index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.min.js"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/github-version-fetcher.git"
+  },
+  "keywords": [
+    "GitHub",
+    "GitHub",
+    "Versions",
+    "GitHub",
+    "Tags",
+    "tags",
+    "versions",
+    "release",
+    "fetch",
+    "API",
+    "semantic",
+    "versioning",
+    "repository",
+    "version-fetcher",
+    "get",
+    "github",
+    "versions"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/github-version-fetcher/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/github-version-fetcher#readme",
+  "dependencies": {
+    "debug": "^4.4.0",
+    "semver": "^7.7.1"
+  }
+}
